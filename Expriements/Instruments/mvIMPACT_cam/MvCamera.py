@@ -216,6 +216,7 @@ class MvCamera:
         for f in files:
            os.remove(f)
 
+    #saves the image
     def SaveImageT(self,img,fname_t, background = False):
         # Save image to the PC - PIL
         now = datetime.now()
