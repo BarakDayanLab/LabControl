@@ -1,0 +1,5 @@
+setup.py
+IMAQ_NI.egg-info/PKG-INFO
+IMAQ_NI.egg-info/SOURCES.txt
+IMAQ_NI.egg-info/dependency_links.txt
+IMAQ_NI.egg-info/top_level.txt

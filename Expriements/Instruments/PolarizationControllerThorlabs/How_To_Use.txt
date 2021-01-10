@@ -1,0 +1,23 @@
+how to use:
+1. get into "\PolarizationControllerThorlabs" directory
+2. in python 3.8 run "PolarizationControllerSetup.py build"
+3. in python 3.8 run "PolarizationControllerSetup.py install" (this binds the functions from the dll's in c to python use)
+4. use the function set3polarizers(paddle1_pos_input, paddle2_pos_input, paddle3_pos_input, serial_type).
+
+note:
+1. There is a phenomena of the device changing it's serial number. 
+	always check the serial number at the kinesis software is the 
+	same as in the code.
+2. the code is composed of the following files:
+	a. PolarizersThorlabs_Set.py - the main code you should run. you can also take the
+		main function set3polarizers and use it in your code:
+		set3polarizers(paddle1_pos_input, paddle2_pos_input, paddle3_pos_input, serial_type):
+        # INPUT:
+        # paddle1_pos_input - the desirable paddle 1 orientation. it must be a number between 1 and 170.
+        # paddle2_pos_input - the desirable paddle 2 orientation. it must be a number between 1 and 170.
+        # paddle3_pos_input - the desirable paddle 3 orientation. it must be a number between 1 and 170.
+
+        # serial_type - is an integer representing the real serial number.
+        # 1 - 38137764
+        # 2 - 38133904
+	b. Thorlabs_Kinesis directory

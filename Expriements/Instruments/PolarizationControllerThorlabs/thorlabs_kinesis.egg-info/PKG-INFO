@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: thorlabs-kinesis
+Version: 0.0.3
+Summary: Python bindings to Thorlabs Kinesis API.
+Home-page: https://github.com/ekarademir/thorlabs-kinesis
+Author: Ertugrul Karademir
+Author-email: ekarademir@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
